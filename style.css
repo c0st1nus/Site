@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500;700&family=Raleway:wght@200&display=swap');
 body {
     background-image: url('sources/BG.png');
     background-size: cover;
     background-position: center;
     margin: 0;
     padding: 0;
+}
+.catalog {
+    width: 31.5%;
+    height: 4.3%;
+    font-family: Raleway;
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 35px;
+    left: 45px;
+    display: flex;
+    align-items: center;
 }
