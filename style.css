@@ -9,12 +9,38 @@ body {
 .catalog {
     width: 31.5%;
     height: 4.3%;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     color: white;
     position: absolute;
     font-size: 50px;
-    top: 35px;
-    left: 45px;
+    left: 3.5%;
     display: flex;
     align-items: center;
+}
+.navbar {
+    position: absolute;
+    top: 12%;
+    left: 3.5%;
+    flex: 1;
+    width: 90%;
+    display: flex;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+}
+.navbar a {
+    font-size: xx-large;
+    color: white;
+    font-family: Raleway, serif;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar a:hover{
+    font-family: Raleway, serif;
+    font-weight: bold;
+    color: white;
 }
