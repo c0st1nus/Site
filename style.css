@@ -18,6 +18,17 @@ body {
     display: flex;
     align-items: center;
 }
+.titles{
+    width: 31.5%;
+    height: 4.3%;
+    font-family: Raleway, serif;
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    left: 3.5%;
+    display: flex;
+    align-items: center;
+}
 .navbar {
     position: absolute;
     top: 12%;
