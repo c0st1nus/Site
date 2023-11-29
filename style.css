@@ -220,3 +220,11 @@ body {
     top: 2%;
     transform: translate(-100%, -2%);
 }
+
+.Vot_Takie_Pirogi {
+    background-color: black;
+}
+
+.moi_text {
+    margin: 0 auto;
+}
