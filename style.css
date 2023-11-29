@@ -119,7 +119,7 @@ body {
     height: 150px;
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 32%;
     border-radius: 10px;
     transform: translate(-50%, -32%);
 }
@@ -136,7 +136,7 @@ body {
     height: 50%;
     position: absolute;
     left: 50%;
-    top: 90%;
+    top: 85%;
     border-radius: 10px;
     transform: translate(-50%, -70%);
 }
@@ -145,13 +145,14 @@ body {
     background-color: rgba(217, 217, 217, 0.5);
     border-radius: 10px;
     display: flex;
-    width: 45%;
+    width: 48%;
     height: 100%;
     float: left;
     align-items: flex-start;
     text-align: center;
     font-size: 38px;
     margin-bottom: 10px;
+    transition: background-color 300ms ease-in-out;
 }
 
 .First:hover {
@@ -162,13 +163,14 @@ body {
     background-color: rgba(217, 217, 217, 0.5);
     border-radius: 10px;
     display: flex;
-    width: 45%;
+    width: 48%;
     height: 100%;
     float: right;
     align-items: flex-start;
     text-align: center;
-    font-size: 48px;
+    font-size: 38px;
     margin-bottom: 10px;
+    transition: background-color 300ms ease-in-out;
 }
 
 .Second:hover {
@@ -179,12 +181,13 @@ body {
     background-color: rgba(217, 217, 217, 0.5);
     border-radius: 10px;
     display: flex;
-    width: 45%;
+    width: 48%;
     height: 100%;
     float: left;
     align-items: flex-start;
     text-align: center;
-    font-size: 48px;
+    font-size: 38px;
+    transition: background-color 300ms ease-in-out;
 }
 
 .Third:hover {
@@ -195,14 +198,25 @@ body {
     background-color: rgba(217, 217, 217, 0.5);
     border-radius: 10px;
     display: flex;
-    width: 45%;
+    width: 48%;
     height: 100%;
     float: right;
     align-items: flex-start;
     text-align: center;
-    font-size: 48px;
+    font-size: 38px;
+    transition: background-color 300ms ease-in-out;
 }
 
 .Fourth:hover {
     background-color: rgba(217, 217, 217, 0.8);
+}
+
+.mgi {
+    border: solid black;
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 10px;
+    position: absolute;
+    left: 99%;
+    top: 2%;
+    transform: translate(-100%, -2%);
 }
